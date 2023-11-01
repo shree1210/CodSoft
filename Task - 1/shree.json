@@ -1,0 +1,62 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey","good morning","good afternoon","good evening"],
+    "bot_response": "Hello! How can i help you?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thank you for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "like", "any", "sport"],
+    "bot_response": "Yes. I like Cricket.",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["would", "you", "read", "any", "books"],
+    "bot_response": "Yes. I would like to read all genres of book",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "is", "your", "favourite", "cricket", "player?"],
+    "bot_response": "My favourite cricket player is Virat Kholi.",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "about", "the","weather","today?"],
+    "bot_response": "The weather is chill and the sky is clear.",
+    "required_words": []
+  }
+]
